@@ -1,0 +1,88 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	// outline: none;
+}
+a:focus,
+a:active {
+	// outline: none;
+}
+html,
+body {
+	height: 100%;
+    font-family: "Montserrat", sans-serif;
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 15px;
+      }
+      
+      /* Define the thumb style */
+      ::-webkit-scrollbar-thumb {
+         background: linear-gradient(to bottom right, #0000004f 0%, #0000005e 100%);
+        border-radius: 5px;
+      }
+      
+      /* Define the track style */
+      ::-webkit-scrollbar-track:horizontal {
+        background-color: white;
+        box-shadow: inset 0 0 2px 2px gainsboro;
+      }
+}
+body {
+	line-height: 1;
+	//text-rendering: optimizeLegibility;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+//ul li {
+//	list-style: none;
+//}
+img {
+	vertical-align: top;
+}
+//h1,
+//h2,
+//h3,
+//h4,
+//h5,
+//h6 {
+//	font-weight: inherit;
+//	font-size: inherit;
+//}
+
+#root{
+    height: 100%;
+}
